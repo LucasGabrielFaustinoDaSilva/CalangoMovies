@@ -16,3 +16,7 @@
 #login {
     background-color: rgba(0,0,0,0.3);
 }
+
+#login input::placeholder{
+    color: #d5d5d5
+}
