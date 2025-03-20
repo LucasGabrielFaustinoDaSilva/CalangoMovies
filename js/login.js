@@ -1,1 +1,6 @@
-// Ao carregar a pagina executa as funcoes de buscar os dad0s
+// Ao carregar a pagina executa as funcoes de buscar os dados
+document.addEventListener("DOMContentLoaded", async() => {
+    setTimeout(() => {
+        toggleLoading();
+    }, 2000);
+});
