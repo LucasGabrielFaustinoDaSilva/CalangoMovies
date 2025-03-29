@@ -29,6 +29,27 @@
             <h1 class="text-white mb-5">Quem está assistindo?</h1>
             <div
                 class="cards mb-4 row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-x1-6 justify-content-center">
+           
+            </div>
+            <button id="gerenciar" type="button" class="btn btn-lg mt-4 rounded-0 gerenciar"
+                onclick="gerenciarPerfil()">Gerenciar perfis</button>
+        </div>
+
+        <div class="edicao min-vh-100 d-none flex-column justify-content-center align-items-center mt-5 py-5"
+           data-bs-theme="dark" >
+           <div class = "container w-75 mb-4">
+            <h1 class="text-white mb-0">Editar perfil</h1>
+            <hr class="text-white" />
+            <div class="row">
+                <div class="col-sm-3 col-md2 mb-5">
+                    <div class = "position-relative">
+                        
+                    </div>
+                </div>
+            </div>
+           </div>
+
+  
                 <div class="card rouded-4">
                     <a href="#" class="text-decoration-none" onclick="redirecionarPagina('${perfil.nome}')">
                         <div id="profile-image" class="position-relative rounded-4">
