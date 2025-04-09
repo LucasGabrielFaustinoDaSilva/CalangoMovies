@@ -15,7 +15,7 @@
 <body>
     <div class="loader"></div>
     <!--navbar start-->
-    <nav class="navbar navabar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-fluid">
             <a href="index.html" class="navbar-brand">
                 <img src="./img/logo-horizontal.png" alt="logo" width="250" class="logo" />
@@ -50,7 +50,7 @@
            </div>
 
   
-                <div class="card rouded-4">
+                <div class="card rounded-4">
                     <a href="#" class="text-decoration-none" onclick="redirecionarPagina('${perfil.nome}')">
                         <div id="profile-image" class="position-relative rounded-4">
                             <img src="img/users/avatar.png" alt="Avatar" class="img-fluid rounded-4" />
@@ -59,7 +59,7 @@
                         <p class="text-secondary text-center mt-2 fs-5 mb-0">Perfil 1</p>
                     </a>
                 </div>
-                <div class="card rouded-4">
+                <div class="card rounded-4">
                     <a href="#" class="text-decoration-none" onclick="redirecionarPagina('${perfil.nome}')">
                         <div id="profile-image" class="position-relative rounded-4">
                             <img src="img/users/avatar2.png" alt="Avatar" class="img-fluid rounded-4" />
@@ -68,7 +68,7 @@
                         <p class="text-secondary text-center mt-2 fs-5 mb-0">Perfil 2</p>
                     </a>
                 </div>
-                <div class="card rouded-4">
+                <div class="card rounded-4">
                     <a href="#" class="text-decoration-none" onclick="redirecionarPagina('${perfil.nome}')">
                         <div id="profile-image" class="position-relative rounded-4">
                             <img src="img/users/avatar3.png" alt="Avatar" class="img-fluid rounded-4" />
@@ -81,7 +81,7 @@
                     <a data-bs-toggle="modal" data-bs-target="#addPerfil"
                         class="text-decoration-none d-flex flex-column flex-fill">
                         <i
-                            class="bx xs-plus-circle rouded-4 d-flex justify-content-center align-items-center flex-fill"></i>
+                            class="bx bx-plus-circle rouded-4 d-flex justify-content-center align-items-center flex-fill"></i>
                         <p class="text-secondary text- mt-2 fs-5 mb-0">
                             Adicionar perfil
                         </p>
@@ -89,14 +89,13 @@
                 </div>
             </div>
             <button id="gerenciar" type="button" class="btn btn-lg mt-4 rounded-0 gerenciar"
-                onnclick="gerenciarPerfil()">
+                onclick="gerenciarPerfil()">
                 Gerenciar perfis
             </button>
         </div>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
     <script src="js/main.js"></script>
     <script src="js/perfil.js"></script>
 </body>
